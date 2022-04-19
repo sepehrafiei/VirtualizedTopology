@@ -1,0 +1,25 @@
+body{
+    background: rgb(197, 197, 197);
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+form{
+    display:flex;
+    background: yellow;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    width: 40rem;
+    height:40rem;
+}
+
+form > *{
+
+    text-align:center;
+}
+
+fieldset{
+    border: none;
+}
